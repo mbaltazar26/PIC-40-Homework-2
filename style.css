@@ -1,0 +1,179 @@
+#bodystyle
+{
+    background-color: cadetblue;
+}
+
+#headerimage
+{
+    background-image: url("treebackground.png");
+    padding: 10px;
+}
+
+
+#table
+{
+    border: 3px solid #b65d8b;
+    margin: 15px;
+    background-color: thistle;
+    width: 33%;
+    position: relative;
+    float: left;
+}
+
+th, td
+{
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+    border: 2px solid #F781BE;
+}
+
+figure
+{
+    float:right; 
+}
+
+#first
+{
+    font-size: 2.5-em;
+    text-align: center;
+    color: white;
+}
+
+#firsttitle
+{
+    visibility:hidden;
+    position:absolute;
+    width: 200px;
+    text-align: center;
+    margin-top:260px;
+    margin-bottom: 10px;
+    color:white;
+}
+
+#firstplace
+{
+    margin-left: -240px;;
+    margin-top:0;
+    z-index: 3;
+    border: 5px solid #F781BE;
+}
+
+#firstplace:hover
+{
+    z-index:4;
+    border: 10px solid #DF013A;
+    border-bottom: 50px solid #DF013A;
+}
+
+#firstplace:hover + #firsttitle
+{
+    visibility:visible;
+    z-index:5;
+}
+
+#secondtitle
+{
+    visibility:hidden;
+    position:absolute;
+    width: 250px;
+    text-align: center;
+    margin-top:285px;
+    color:white;
+}
+
+#secondplace
+{
+    margin-top:30px;
+    margin-left:-240px; 
+    z-index: 2;
+    border: 5px solid #FA58AC;
+}
+
+#secondplace:hover
+{
+    z-index:4;
+    border: 10px solid #DF013A;
+    border-bottom: 50px solid #DF013A;
+}
+
+#secondplace:hover + #secondtitle
+{
+    visibility:visible;
+    z-index:5;
+}
+
+#thirdtitle
+{
+    visibility:hidden;
+    position:absolute;
+    width: 300px;
+    text-align: center;
+    margin-top:310px;
+    color:white;
+}
+
+#thirdplace
+{
+    margin-top:60px;
+    margin-left:-240px; 
+    z-index: 1;
+    border: 5px solid #FE2E9A;
+}
+
+#thirdplace:hover
+{
+    z-index:4;
+    border: 10px solid #DF013A;
+    border-bottom: 50px solid #DF013A;
+}
+
+#thirdplace:hover + #thirdtitle
+{
+    visibility:visible;
+    z-index:5;
+}
+
+img
+{
+    float:right; 
+    position:relative;
+    width:250px;
+}
+
+p
+{
+    text-indent: 25px;
+    margin-left: 40px; 
+    margin-right: 40px;
+}
+
+div
+{
+    float: right; 
+    width: 300px;
+    padding: 15px;
+}
+
+#buttontext
+{
+    text-indent:0px; 
+}
+
+hr
+{
+    border: 1px solid #b65d8b;
+}
+
+form 
+{
+    background-color: thistle;
+    padding: 20px;
+    border: 3px solid #b65d8b
+}
+
+#textbox
+{
+    width: 950px;
+}
+
